@@ -1,7 +1,6 @@
 require('dotenv').config();
 const express=require('express');
 const app=express();
-const app2=express();
 const morgan=require('morgan');
 const mongoose=require('mongoose');
 const cors=require('cors');
@@ -38,6 +37,6 @@ app.use("/",(req,res)=>{
 })
 
 app.listen(process.env.PORT,(req,res)=>{
-    console.log('server is running on port 5000');
+    console.log('server is running on port 5001');
 })
 

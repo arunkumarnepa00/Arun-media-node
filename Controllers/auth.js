@@ -30,7 +30,7 @@ const signup = (req, res) => {
         return res.status(400).json({ err: "unable to save the user" })
     })
 
-
+    
 }
 
 
